@@ -1,0 +1,36 @@
+.wrapper{
+    width: 250px;
+    padding: 20px 0 65px 8px;
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    visibility: hidden;
+    overflow: auto;
+}
+
+.content{
+    visibility: visible;
+}
+
+.wrapper:hover,.content:hover{
+    visibility: visible;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 5px; 
+}
+
+.wrapper::-webkit-scrollbar-thumb{
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.line::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 210px;
+    background-color: whitesmoke;
+    margin: 8px 0 8px 8px;
+}

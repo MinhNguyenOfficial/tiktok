@@ -1,0 +1,158 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 692px;
+    height: 700px;
+    padding: 20px 0 20px 0;
+    display: flex;
+}
+
+.avatar-wrapper{
+    width: 56px;
+    height: 100%;
+}
+
+.avatar{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.video-content{
+    width: 640px;
+    height: 105px;
+    margin-left: 12px;
+}
+
+.header-content{
+    display: flex;
+}
+
+.video-title{
+    width: 510px;
+    height: 105px;
+}
+
+.follow-btn{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.main-video{
+    display: flex;
+}
+
+.music-icon{
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.video{ 
+    height: 555px;
+    width: 310px;
+    border-radius: 12px;
+    margin-right: 20px;
+    background-color: black;
+    position: relative;
+
+    &:hover{
+        .pause, .volume{
+            visibility: visible;
+        }
+    }
+}
+
+video{
+    border-radius: 12px;
+}
+
+.reaction{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.react{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+
+.react-btn{
+    height: 48px;
+    width: 48px;
+    margin: 8px 0 6px 0;
+    font-size: 21px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+.line::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 700px;
+    background-color: rgb(197, 194, 194);
+}
+
+.user-info{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tick{
+    color: aqua;
+    margin-left: 5px;
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+}
+
+.user-name{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.pause, .volume{
+    background-color: transparent;
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.pause{
+    bottom: 35px;
+    left: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.volume{
+    bottom: 35px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.liked{
+    background-color: var(--primary);
+    color: white;
+}

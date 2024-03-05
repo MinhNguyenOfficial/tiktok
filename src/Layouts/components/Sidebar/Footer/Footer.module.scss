@@ -1,0 +1,47 @@
+.wrapper{
+    padding: 16px 0 0 8px;
+    width: 224px;
+    height: 304px;
+}
+
+.effect-btn{
+    background-image: url("https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/045b2fc7c278b9a30dd0.png");
+    background-size: cover;
+    width: 208px;
+    height: 52px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+
+    span{
+        height: 100%;
+        font-size: 14;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    span:hover{
+        transform: scale(1.1);
+    }
+}
+
+.link-wrapper{
+    width: 224px;
+    margin-bottom: 8px;
+}
+
+.footer-link{
+    font-size: 12px;
+    margin-right: 5px;
+    color: gray;
+    font-weight: 600;
+    display: flex;
+
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
